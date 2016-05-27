@@ -1,0 +1,409 @@
+@media (min-width: 1367px) and (max-width: 1920px) {
+    .blackboard {
+        background-size: cover;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .div-icon {
+        width: 35%;
+        margin: 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1169px) {
+    .section-form form {
+        width: 80%;
+    }
+    .form-title h3 {
+        font-size: 23px;
+    }
+    .form-title span {
+        font-size: 23px;
+    }
+    .form-comment {
+        font-size: 20px;
+    }
+    .section-form input {
+        font-size: 20px;
+        height: 35px;
+    }
+    .first-section-video video {
+        max-width: 100%;
+    }
+    .top-row-hexagon,
+    .bottom-row-hexagon {
+        padding: 0px 40px;
+    }
+    .col-duty ul li {
+        font-size: 17px;
+    }
+    .col-duty ul li span {
+        font-size: 18px;
+    }
+    .col-duty {
+        padding: 20px;
+    }
+    .duty {
+        padding: 45px 50px 45px 50px;
+    }
+    .duty-title {
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+    .duty h2 {
+        font-size: 27px;
+        margin-bottom: 35px;
+    }
+    .bottom-right-item {
+        margin-left: 70px;
+    }
+    .bottom-left-item {
+        margin-right: 70px;
+    }
+    .food-list ul li {
+        font-size: 19px;
+    }
+    .price-table table {
+        width: 100%;
+    }
+    .cloud-top {
+        font-size: 19px;
+        padding: 5px;
+    }
+    .cloud-bottom {
+        font-size: 18px;
+        margin-bottom: 45px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1080px) {
+    .hexagon {
+        width: 160px;
+        height: 180px;
+    }
+    .hex-ico {
+        width: 45%;
+    }
+    .hexagon p {
+        font-size: 15px;
+        line-height: 1em;
+    }
+    .fullscreen-bg {
+        padding-top: 500px;
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 991px) {
+    .first-section-video {
+        text-align: center;
+    }
+    .section-form-content {
+        margin-right: auto;
+    }
+    .top-row-hexagon,
+    .bottom-row-hexagon {
+        padding: 0px 15px;
+        text-align: center;
+    }
+    .top-row-hexagon {
+        margin-bottom: 2em;
+    }
+    .fullscreen-bg {
+        background: url('../images/poster.jpg') top center / cover no-repeat;
+        background-attachment: fixed;
+    }
+    .fullscreen-bg__video {
+        display: none;
+    }
+    .food,
+    .price,
+    .bottom-form,
+    .duty {
+        padding: 35px;
+    }
+    .col-duty-content {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .top-list-item {
+        padding: 0px 30px;
+    }
+    .bottom-right-item {
+        margin-left: 40px;
+    }
+    .bottom-left-item {
+        margin-right: 40px;
+    }
+    .food-list {
+        margin-bottom: 2em;
+    }
+    .food-list ul {
+        padding-left: 0px;
+    }
+    .month-price,
+    .once-price {
+        margin: 3em 0px;
+    }
+    .bottom-form {
+        height: auto;
+        display: block;
+    }
+    .col-cloud {
+        height: auto;
+        display: block;
+    }
+    .cloud-bottom {
+        position: relative;
+        margin-top: 2em;
+    }
+    .cloud-top,
+    .cloud-bottom {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .contact-meta p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .callback-phone .tooltip{
+        margin-left: -150px;
+    }
+    .div-icon {
+        position: relative;
+        display: inline-block;
+        margin: 20px;
+        width: 41%;
+    }
+    .hex {
+        min-width: 250px;
+    }
+    .icon {
+        min-width: 230px;
+    }
+    .first-section-title,
+    .bottom-form-title,
+    .food-title,
+    .price-title,
+    .blackboard-title,
+    .duty-title {
+        font-size: 30px;
+    }
+    .first-section-subtitle,
+    .bottom-form-subtitle,
+    h2 {
+        font-size: 25px;
+    }
+    .form-title h3,
+    .form-title span {
+        font-size: 24px;
+    }
+    .form-comment {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .form-comment p {
+        line-height: 1.3em;
+    }
+    .first-section {
+        padding: 35px;
+    }
+    .section-form input {
+        font-size: 20px;
+        height: 35px;
+    }
+    .section-form form {
+        width: 80%;
+    }
+    .mobile-hexagon {
+        display: block;
+        background: url('../images/poster.jpg') top center / cover no-repeat;
+        background-attachment: fixed;
+        margin: 0px;
+    }
+    .bottom-row-hexagon {
+        padding-bottom: 2em;
+    }
+    .fullscreen-bg {
+        display: none;
+    }
+    .overlay {
+        position: relative;
+    }
+    .list-item {
+        width: 185px;
+        height: 270px;
+    }
+    .list-calendar {
+        font-size: 16px;
+    }
+    .list-calendar li {
+        padding: 5px 5px 10px 0px;
+    }
+    .bottom-left-item {
+        margin-right: 0px;
+    }
+    .bottom-right-item {
+        margin-left: 0px;
+    }
+    .blackboard-bg {
+        display: none;
+    }
+    .blackboard {
+        background-image: url(../images/blackboard-bg.jpg);
+        background-size: cover;
+        background-position: center center;
+        padding-bottom: 2em;
+    }
+    .duty-title {
+        margin-bottom: 25px;
+    }
+    .price-table table {
+        width: 100%;
+    }
+    .price-description {
+    font-size: 16px;
+    line-height: 1.7em;
+}
+    .price-table h3 {
+        font-size: 48px;
+    }
+    .table-title {
+        font-size: 36px;
+    }
+    #menu .navbar-collapse {
+        padding-top: 0px;
+    }
+    #menu li {
+        margin: 0px;
+    }
+    .navbar-nav {
+        margin: 5.5px -15px;
+    }
+    #menu ul {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .food-list ul li {
+    font-size: 20px;
+}
+    .contact-meta p {
+        display: block;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 650px) {
+    .first-section-title, .bottom-form-title, .food-title, .price-title {
+        font-size: 25px;
+    }
+    .first-section-subtitle,
+    .bottom-form-subtitle,
+    h2 {
+        font-size: 22px;
+    }
+    .first-section-subtitle,
+    h2,
+    .form-title h3,
+    .form-title span {
+        font-size: 22px;
+    }
+    .form-comment {
+        font-size: 20px;
+    }
+    .form-title .meta-form-title,
+    .form-comment p {
+        line-height: 1em;
+    }
+    .section-form-content {
+        padding: 20px 0px;
+    }
+    .section-form-button {
+        font-size: 17px;
+    }
+    .first-section {
+        text-shadow: 1px 1px 0px #000;
+    }
+    .bottom-left-item {
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .bottom-right-item {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .bottom-list-item {
+        text-align: center;
+    }
+    .small-col {
+        float: none !important;
+        width: 100%;
+    }
+    .list-xs {
+        display: inline;
+    }
+    .list-lg {
+        display: none;
+    }
+    .list-item {
+        width: 70%;
+        height: auto;
+    }
+    .top-list-item {
+        padding: 0px;
+    }
+    .list-calendar li {
+        padding: 5px 5px 5px 0px;
+    }
+    .list-calendar {
+        font-size: 18px;
+        margin-bottom: 1em;
+        margin-left: 1em;
+    }
+    .bottom-list-item {
+        margin-top: 0px;
+    }
+    .blackboard-title {
+        font-size: 28px;
+    }
+    .top-row-hexagon {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .div-hex {
+        margin: 1em;
+    }
+    .col-duty ul li {
+        font-size: 18px;
+    }
+    .col-duty ul li span {
+        font-size: 19px;
+    }
+    .food-list ul li {
+        font-size: 18px;
+    }
+    .div-icon {
+        width: 100%;
+    }
+    .icon {
+        min-width: 210px;
+    }
+}
+
+@media (max-width: 450px) {
+    .list-item {
+        width: 90%;
+    }
+    .table-title {
+        font-size: 25px;
+    }
+    .price-table table td {
+        border: 2px solid #000;
+        font-size: 15px;
+        padding: 2px;
+    }
+}
